@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+var gitDefinition = "git is a way for people to work on files and track them down while also having a easier time sharing their work";
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition =" its the basically like git but you can have people access your files and make changes if you allow it.";
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,7 @@
 */
 
 //CODE HERE
-
+var init = "[git init] is the code and what it does is Initializes empty Git repository on your computer";
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +42,7 @@
 */
 
 //CODE HERE
-
+let clone = "[git-clone] creates a copy of the repository on your computer and puts it into the directory";
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,13 +50,13 @@
 */
 
 //CODE HERE
-
+let status = "[git status] shows the current state of your repository";
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
     following the guidelines above to describe the add command.
 */
-
+let add = "[git add] adds content to the file and is used before commit";
 //CODE HERE
 
 //////////////////PROBLEM 7////////////////////
@@ -66,7 +66,7 @@
 */
 
 //CODE HERE
-
+let commit = "[git commit] is used to save changes that are made in your repository"
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +75,4 @@
 */
 
 //CODE HERE
+let push = "[git push] is used to connect github and git together by uploading the local repository to a remote one";
